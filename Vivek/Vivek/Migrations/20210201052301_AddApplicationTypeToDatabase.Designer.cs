@@ -9,8 +9,8 @@ using Vivek.Data;
 namespace Vivek.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210128065628_addCategoryToDatabase")]
-    partial class addCategoryToDatabase
+    [Migration("20210201052301_AddApplicationTypeToDatabase")]
+    partial class AddApplicationTypeToDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -19,6 +19,21 @@ namespace Vivek.Migrations
                 .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.2");
+
+            modelBuilder.Entity("Vivek.Models.ApplicationType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ApplicationType");
+                });
 
             modelBuilder.Entity("Vivek.Models.Category", b =>
                 {
