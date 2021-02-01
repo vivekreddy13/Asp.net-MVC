@@ -435,3 +435,5 @@ C:\Users\vivek\OneDrive\Desktop\Vivek\Vivek\obj\Debug\net5.0\Razor\Views\Applica
 C:\Users\vivek\OneDrive\Desktop\Vivek\Vivek\obj\Debug\net5.0\Razor\Views\ApplicationType\Index.cshtml.g.cs
 C:\Users\vivek\OneDrive\Desktop\Vivek\Vivek\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
 C:\Users\vivek\OneDrive\Desktop\Vivek\Vivek\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
+C:\Users\vivek\OneDrive\Desktop\Vivek\Vivek\obj\Debug\net5.0\Razor\Views\ApplicationType\Delete.cshtml.g.cs
+C:\Users\vivek\OneDrive\Desktop\Vivek\Vivek\obj\Debug\net5.0\Razor\Views\ApplicationType\Edit.cshtml.g.cs
